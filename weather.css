@@ -1,0 +1,61 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather{
+    border: 2px solid black;
+    height: 55vh;
+    width: 350px;
+    display: block;
+}
+
+.icon{
+    padding-top: 15px;
+}
+
+.curnt_temp{
+    border-bottom: 2px solid black;
+    height: 20vh;
+    font-size: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    height: 27vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 26px;
+    padding-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search{
+    margin-left: 5em;
+}
+
+.feels_like{
+    padding-top: 2vh;   
+}
+
+.max_temp{
+    padding-top: 2vh;
+}
+
+.min_temp{
+    padding-top: 2vh;
+}
+
+.searchelement{
+    height: 10px;
+    width: 80px;
+}
